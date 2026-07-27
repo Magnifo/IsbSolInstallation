@@ -1,12 +1,13 @@
 import { MapPin, Phone } from "lucide-react"
 import { business, categories } from "../data/site"
+import { asset } from "../lib/asset"
 
 export function Footer() {
   return (
     <footer className="border-t border-slate-200 bg-slate-50 text-slate-700">
       <div className="mx-auto grid max-w-[1400px] gap-8 px-4 py-12 md:grid-cols-3">
         <div>
-          <img src="/logo.png" alt={business.name} className="mb-4 h-20 w-auto rounded-lg object-contain" />
+          <img src={asset("logo.png")} alt={business.name} className="mb-4 h-20 w-auto rounded-lg object-contain" />
           <p className="text-sm text-slate-600">{business.tagline}</p>
         </div>
 

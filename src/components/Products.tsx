@@ -2,6 +2,7 @@ import { useMemo, useState } from "react"
 import { Check, ShoppingCart } from "lucide-react"
 import { products } from "../data/site"
 import { useCart } from "../context/CartContext"
+import { asset } from "../lib/asset"
 
 const filters = ["All", "Solar Panels", "Inverters", "Lithium Batteries"] as const
 
@@ -79,7 +80,7 @@ export function Products() {
                     </span>
                   )}
                   <img
-                    src={product.image}
+                    src={asset(product.image)}
                     alt={product.name}
                     className="h-full w-full object-contain p-3 transition duration-300 group-hover:scale-[1.03]"
                     loading="lazy"

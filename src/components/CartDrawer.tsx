@@ -1,6 +1,7 @@
 import { MessageCircle, Minus, Plus, Trash2, X } from "lucide-react"
 import { business } from "../data/site"
 import { useCart } from "../context/CartContext"
+import { asset } from "../lib/asset"
 
 export function CartDrawer() {
   const { items, isOpen, closeCart, removeItem, setQty, clearCart, count } = useCart()
@@ -70,7 +71,7 @@ Please share prices and availability.`
               {items.map((item) => (
                 <li key={item.id} className="flex gap-3 rounded-2xl border border-slate-200 p-3">
                   <img
-                    src={item.image}
+                    src={asset(item.image)}
                     alt={item.name}
                     className="h-20 w-20 rounded-xl border border-slate-100 object-contain bg-white p-1"
                   />

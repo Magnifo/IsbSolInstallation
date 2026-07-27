@@ -72,7 +72,7 @@ export const products: Product[] = [
     specs: "590W · Single Glass · 22.6% efficiency · 25yr performance",
     price: "Request price",
     badge: "Best Seller",
-    image: "/products/panel-longi-590w.png",
+    image: "products/panel-longi-590w.png",
   },
   {
     id: "panel-longi-580",
@@ -82,7 +82,7 @@ export const products: Product[] = [
     specs: "580W · Double Glass · 22.5% efficiency · Bifacial",
     price: "Request price",
     badge: null,
-    image: "/products/panel-longi-580w.png",
+    image: "products/panel-longi-580w.png",
   },
   {
     id: "inv-fox-10kw",
@@ -92,7 +92,7 @@ export const products: Product[] = [
     specs: "10kW · Hybrid Three-Phase · IP65 · Remote monitoring",
     price: "Request price",
     badge: "Popular",
-    image: "/products/inv-fox-10kw.png",
+    image: "products/inv-fox-10kw.png",
   },
   {
     id: "inv-simtek-dual",
@@ -102,7 +102,7 @@ export const products: Product[] = [
     specs: "Dual output · Circular display · Home & commercial",
     price: "Request price",
     badge: null,
-    image: "/products/inv-simtek-dual.png",
+    image: "products/inv-simtek-dual.png",
   },
   {
     id: "bat-voltix-5kwh",
@@ -112,7 +112,7 @@ export const products: Product[] = [
     specs: "5kWh · 51.2V · 100Ah · 6yr replacement warranty",
     price: "Request price",
     badge: "New",
-    image: "/products/bat-voltix-5kwh.png",
+    image: "products/bat-voltix-5kwh.png",
   },
   {
     id: "bat-sunkapower-100ah",
@@ -122,7 +122,7 @@ export const products: Product[] = [
     specs: "51.2V · 100Ah · Long life · LCD display",
     price: "Request price",
     badge: null,
-    image: "/products/bat-sunkapower-100ah.png",
+    image: "products/bat-sunkapower-100ah.png",
   },
 ]
 

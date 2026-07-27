@@ -1,5 +1,6 @@
 import { ArrowRight, MessageCircle, Package, ShieldCheck } from "lucide-react"
 import { business } from "../data/site"
+import { asset } from "../lib/asset"
 
 export function Hero() {
   return (
@@ -54,7 +55,7 @@ export function Hero() {
         <div className="flex justify-center">
           <div className="rounded-3xl border border-slate-200 bg-white p-4 shadow-xl shadow-slate-200/80">
             <img
-              src="/logo.png"
+              src={asset("logo.png")}
               alt={business.name}
               className="mx-auto w-full max-w-sm rounded-2xl object-contain md:max-w-md"
             />

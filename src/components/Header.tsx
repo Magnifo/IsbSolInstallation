@@ -2,6 +2,7 @@ import { useState } from "react"
 import { Menu, Phone, ShoppingBag, ShoppingCart, X } from "lucide-react"
 import { business, categories, navLinks } from "../data/site"
 import { useCart } from "../context/CartContext"
+import { asset } from "../lib/asset"
 
 export function Header() {
   const [open, setOpen] = useState(false)
@@ -11,7 +12,7 @@ export function Header() {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-slate-200 bg-white/95 shadow-sm backdrop-blur-md">
       <div className="mx-auto flex max-w-[1400px] items-center justify-between gap-4 px-4 py-2.5">
         <a href="#home" className="flex shrink-0 items-center">
-          <img src="/logo.png" alt={business.name} className="h-14 w-auto max-w-[160px] rounded-md object-contain" />
+          <img src={asset("logo.png")} alt={business.name} className="h-14 w-auto max-w-[160px] rounded-md object-contain" />
         </a>
 
         <nav className="hidden items-center gap-6 lg:flex">
