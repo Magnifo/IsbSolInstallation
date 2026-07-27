@@ -2,7 +2,7 @@
 
 E-commerce website for solar panels, inverters, lithium batteries, and installation services.
 
-**Live site:** https://magnifo.github.io/InsSolInstalion/
+**Live site:** https://magnifo.github.io/IsbSolInstallation/
 
 ## Local development
 

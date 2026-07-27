@@ -2,9 +2,9 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
-// GitHub Pages project site: https://InsSolInstalion.github.io/InsSolInstalion/
+// GitHub Pages project site: https://magnifo.github.io/IsbSolInstallation/
 export default defineConfig({
-  base: '/InsSolInstalion/',
+  base: '/IsbSolInstallation/',
   plugins: [react(), tailwindcss()],
   server: {
     host: "0.0.0.0",
