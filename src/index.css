@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  /* Logo metallic blue */
+  --color-brand-blue: #1c6fd4;
+  --color-brand-blue-dark: #0f4a9a;
+  /* Logo sun gold */
+  --color-brand-gold: #e8a017;
+  --color-brand-gold-light: #f5c42e;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-slate-800 antialiased;
+  font-family: var(--font-sans);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
